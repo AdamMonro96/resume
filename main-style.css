@@ -1,10 +1,248 @@
-.navigation
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:ital,wght@0,600;1,500&display=swap');
+
+body
 {
-    font-weight: bold;
-    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+body a{
+    color: inherit;
+text-decoration: none;
 }
 
-.sexy-photo
+nav{ 
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 1500px;
+    margin-bottom: 50px;
+    margin-top: 2%;
+}
+
+nav ul{
+    display: flex;
+    /* margin-left: 13%; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0;
+    margin-right: 40px;
+    font-size: 1.5em;
+    padding: 10px;
+}
+nav ul li:hover{
+    background-color: salmon;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+main{
+    max-width: 1500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding:1em;
+}
+.mainscreen{
+    height: 90vh;
+    max-height: 700px;
+    text-align: left;
+}
+.mainscreen h1{
+font-size: 5em;
+}
+.mainscreen h2{
+    font-size: 3em;
+    font-weight:lighter;
+    }
+.mainscreen button{
+    border: solid black 4px;
+    padding: 2% 5% 2% 5%;
+    background:none;
+    text-align: center;
+    display: block;
+    margin-left: 0%;
+    margin-top: 100px;
+    font-size: 1.5em;
+    font-family: inherit;
+}
+.mainscreen button:hover{
+    border: solid white 4px;
+    transition: 0.5s;
+    background-color: salmon;
+    color: white;
+}
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h2{
+    font-size: 2.5em;
+}
+
+.section-grid
 {
+display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  grid-gap: 1vw;
+}
+
+.block{
+    padding:2em;
+    border-radius: 30px;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+.block p{
+    text-align:left;
+}
+
+.block img{
+    border-radius: 50%;
+    position: relative;
+    left:20%;
     width: 50%;
+}
+
+.block h2{
+font-size: 1.5em;
+}
+
+.contacts{
+    background-color: seashell;
+}
+.about{
+    background-color: seashell;
+    grid-column: 2 / -1;
+}
+
+.contacts a{
+display: block;
+border-radius: 30px;
+color: white;
+text-decoration: none;
+padding:10px;
+background-color: black;
+padding: 15px 25px 15px 25px;
+width: 70%;
+}
+
+.contacts a:nth-child(3){
+background-color: royalblue;
+margin-bottom: 5px;
+}
+.contacts a:nth-child(4){
+    background-color: steelblue;
+    }
+
+.skills{
+    background-color: seashell;
+}
+.softskills{
+    background-color:seashell;
+    grid-column: 2 / 4;
+}
+.form{
+    height: 1500px;
+    max-height: 700px;
+    text-align: left;
+    background-color: white;
+    color: grey;
+}
+
+.form label{
+    display: block;
+    padding: 10px 10px 10px 0px;
+}
+
+.form input, .form textarea{
+border: none;
+color: black;
+padding: 10px 10px 10px 0px;
+width: 100%;
+border-bottom: 1.5px solid black;
+margin-bottom: 25px;
+outline: none;
+}
+.form textarea{
+    border: 1px black dashed;
+}
+.form input:focus, .form textarea:focus{
+    color: white;
+    background-color: salmon;
+    transition: 0.5s;
+    }
+.form h3{
+    text-align: center;
+}
+
+.form-raw{
+display: inline-block;
+width: 40%;
+margin-right: 5%;
+margin-top: 50px;
+}
+.form button{
+    background-color: salmon;
+    font-family: inherit;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.25em;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+    font-family: inherit;
+   } 
+   input::-moz-placeholder {
+    color: white;
+    font-family: inherit;
+   }
+
+.block:hover{
+    background-color: salmon;
+    color: white;
+    transition: 0.5s;
+}
+.block:hover a{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.block a:active{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vw;
+}
+
+.case{
+    background-color: lavender;
+    border-radius: 30px;
+    padding: 40px;
+    color: black;
+}
+.case:nth-child(2n+1)
+{
+    background-color: peachpuff;
+}
+.case:hover{
+background-color: salmon;
+color: white;
+transition: 0.5s;
 }

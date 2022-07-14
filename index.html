@@ -10,127 +10,151 @@
     <link rel="stylesheet" href="main-style.css">
 </head>
 <body>
+    <!-- Навигация -->
     <nav>
-        <ul class="navigation" type="square">
-<li>Обо мне</li>
-<li>Мои работы</li>
-<li>Контакты</li>
+        <ul class="navigation">
+<li><a href="#about">Обо мне</a></li>
+<li><a href="#cases">Мои работы</a></li>
+<li><a href="#">Технологии</a></li>
+<li><a href="#">Фото</a></li>
+<li><a href="#contact">Связаться</a></li>
         </ul>
     </nav>
-
+    <!-- Главный экран -->
     <main>
-        <section>
-<h1>
-    Владимир Струков
-</h1>
+        <section class="mainscreen">
 
-<p>
-Это мой первый сайт. Здесь вы можете найти мои работы, а также немного информации обо мне. 
-</p>
+            <h1>
+                Разрабатываю сайты, которые продают.
+            </h1>
+<h2>Frontend-разрабочик с маркетинговым подходом.</h2>
+<button><a href="#about">Узнать мою историю</a></button>
 
-<p>До 2022 года я работал <strong>маркетологом</strong>, но решил попробовать себя в IT. <br>
-<em>Ранее я уже обучался этому в университете, но бросил.</em> Сейчас буду пробовать себя во <strong>frontend-разработке</strong>. 
-</p>
-<p><strong>Мои социальные сети:</strong></p>
-<a href="https://vk.com/ymonitor" target="_blanc">Вконтакте</a> ||
+        </section>
+        
+           <!-- Обо мне -->
+           
+<section class="title" >
+<h2 id="about">Обо мне в двух словах</h2>
+        </section>
+
+<section class="section-grid">
+<section class="block contacts">
+
+<h2>Владимир Струков</h2>
+<p>Начинающий сексуальный разработчик. </p>
+<a href="https://vk.com/ymonitor" target="_blanc">Вконтакте</a>
 <a href="https://t.me/hot_marketer" target="_blanc">Телеграм</a>
-<p>А ниже - моя секси фоточка</p>
-<img class="sexy-photo" alt="сексуальная фотка" src="секси-фоточка.jpeg"> 
 </section>
 
-<section>
-    <p><strong>Мои хобби:</strong></p>
+<section class="block about">
+<h2>Как я начал кодить?</h2>
+<p>До 2022 года я работал маркетологом. Во время кризиса разочаровался в профессии и решил попробовать себя в IT.</p>
+<p>Ранее я уже обучался этому в университете, но бросил. Сейчас пробую себя во frontend-разработке. </p>
+</section>
+
+<section class="block skills">
+    <h2>Образование</h2>
+    <ul>
+        <li>ДЛИ "Интеллект"</li>
+        <li>ДонНТУ - бакалавр</li>
+    </ul>
+</section>
+
+<section class="block softskills">
+    <h2>Soft-skills</h2>
     <ol>
-        <li>Иностранные языки</li>
-        <li>Курсы по всякой херне</li>
-        <li>Инвестиции и финансы</li>
+        <li>Работаю на результат и конечную цель, а не на процесс.</li>
+        <li>Не боюсь отвечать за последствия и результаты своей работы.</li>
+        <li>Быстро нахожу и осваиваю новую информацию без "разжевывания".</li>
     </ol>
 </section>
 
-<section>
-<table>
-    <thead>
-<tr>
-<th>Компания</th>
-<th>Должность</th>
-<th>Годы работы</th>
-</tr>
-</thead>
-
-<tbody>
-    <tr>
-        <td>Интернет-тариф</td>
-        <td>Главный маркетолог</td>
-        <td>2022</td>
-        </tr>
-
-    <tr>
-            <td>Аль Пако</td>
-            <td>Главный маркетолог</td>
-            <td>2021</td>
-            </tr>
-
-     <tr>
-        <td>TrendUp</td>
-        <td>Маркетолог</td>
-        <td>2020</td>
-        </tr>
-
-</tbody>
-</table>
 </section>
-<section>
-    <p>Хотите связаться со мной?</p>
-    <p>Заполните форму ниже и мы обсудим ваш проект</p>
-    <form>
-        <div>
-        <label for="name">Введите ваше имя</label>
+<!-- Тут начинается портфолио -->
+<section class="title">
+    <h2 id="cases">Мои работы</h2>
+</section>
+
+            <section class="portfolio">
+
+                <a class="case">
+<h3>Первый сайт</h3>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?
+</p>
+                </a>
+
+                <a class="case">
+                    <h3>Второй сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Третий сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Четвертый сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Пятый сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+                <a class="case">
+                    <h3>Шестой сайт</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
+                </a>
+
+
+            </section>
+
+            <!-- Тут блок формы -->
+            <section class="title">
+                <h2 id="contact">Давайте сотрудничать</h2>
+            </section>
+
+            <section class="form">
+
+    <h3>Заполните форму ниже и мы обсудим ваш проект</h3>
+    <form id="contact">
+        <!-- Левая часть формы -->
+        <div class="form-raw">
+
+        <div class="form-part">
+        <label for="name">Как вас зовут?</label>
         <input id="name" type="text" placeholder="Введите имя сюда">
         </div>
 
-        <div>
-            <label for="email">Введите ваш электронный адрес</label>
+        <div class="form-part">
+            <label for="email">Электронный адрес</label>
             <input id="email" type="email" placeholder="Не забудьте собачку">
         </div>
 
-        <div>
-            <label for="tel">Введите ваш номер</label>
+        <div class="form-part">
+            <label for="tel">Номер для связи</label>
             <input id="tel" type="tel" placeholder="Номер в формате +7">
         </div>
 
-        <div>
-            <label for="date">Дата связи</label>
-            <input id="date" type="date">
-        </div>
+    </div>
 
-        <div>
-            <label for="goal">Какую задачу хотели бы решить?</label>
-            <select id="goal">
-            <option value="site">Мне нужен сайт</option>
-            <option value="landing" selected>Мне нужен лендинг</option>
-            <option value="consult">Мне нужна консультация</option>
-            </select>
-        </div>
-
-        <div>
+    <div class="form-raw">
+        <div class="form-part">
             <label for="comment">Расскажите о проекте</label>
-            <textarea id="comment" rows="5" cols="25"> </textarea>
-        </div>
-
-        <div>
-<label>Как вам удобно связаться?</label>
-<input type="radio" name="connection" checked> По телефону
-<input type="radio" name="connection"> В мессенджерах
-<input type="radio" name="connection"> Письмо на почту
+            <textarea id="comment" rows="10" cols="25"> </textarea>
         </div>
         
         <div>
-            <input type="submit" value="Отправить заявку">
+            <button form="contact">Отравить заявку</button>
         </div>
+
+    </div>
     </form>
 </section>
-
-
     </main>
 </body>
 </html>
