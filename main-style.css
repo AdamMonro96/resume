@@ -69,10 +69,16 @@ font-size: 5em;
     font-size: 1.5em;
     font-family: inherit;
 }
-.mainscreen button:hover{
+.mainscreen button:hover, .form button:hover{
     border: solid white 4px;
     transition: 0.5s;
     background-color: salmon;
+    color: white;
+}
+.mainscreen button:active, .form button:active{
+    border: solid white 4px;
+    transition: 0.5s;
+    background-color: black;
     color: white;
 }
 .title{
@@ -190,10 +196,10 @@ margin-right: 5%;
 margin-top: 50px;
 }
 .form button{
-    background-color: salmon;
+    border: solid black 4px;
+    background:none;
+    text-align: center;
     font-family: inherit;
-    color: white;
-    border: none;
     padding: 10px 15px 10px 15px;
     font-size: 1.25em;
 }
