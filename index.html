@@ -8,27 +8,31 @@
     <meta name="keywords" content="портфолио, сайт-визитка">
     <title>Сайт-портфолио</title>
     <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="media-768.css">
 </head>
 <body>
+
     <!-- Навигация -->
-    <nav>
+    <header>
+    <nav class="container">
         <ul class="navigation">
 <li><a href="#about">Обо мне</a></li>
 <li><a href="#cases">Мои работы</a></li>
-<li><a href="#">Технологии</a></li>
-<li><a href="#">Фото</a></li>
+<li><a href="#tech">Технологии</a></li>
+<li><a href="#photo">Фото</a></li>
 <li><a href="#contact">Связаться</a></li>
         </ul>
     </nav>
+</header>
+
     <!-- Главный экран -->
-    <main>
+    <main class="container">
+
         <section class="mainscreen">
 
-            <h1>
-                Разрабатываю сайты, которые продают.
-            </h1>
+            <h1> Разрабатываю сайты, которые продают. </h1>
 <h2>Frontend-разрабочик с маркетинговым подходом.</h2>
-<button><a href="#about">Узнать мою историю</a></button>
+<button><a href="#about">Узнать больше</a></button>
 
         </section>
         
@@ -39,6 +43,7 @@
         </section>
 
 <section class="section-grid">
+    
 <section class="block contacts">
 
 <h2>Владимир Струков</h2>
@@ -109,6 +114,41 @@
                     <h3>Шестой сайт</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi?</p>
                 </a>
+
+
+            </section>
+
+            <!-- Блок "мои навыки" -->
+            <section class="title" >
+                <h2 id="tech">Стек навыков</h2>
+                        </section>
+
+            <section class="container flex-block">
+
+                <div class="skill-block">
+                    <img src="/Сайт-портфолио/icons/html.png" alt="html">
+                </div>
+
+                <div class="skill-block">
+                    <img src="/Сайт-портфолио/icons/css.png" alt="css">
+                </div>
+
+                <div class="skill-block">
+                    <img src="/Сайт-портфолио/icons/js.png" alt="js">
+                </div>
+            </section>
+
+            <section class="title" >
+                <h2 id="photo">Немного фото</h2>
+                        </section>
+
+            <section class="container">
+                <section class="gallery">
+                    <img src="/Сайт-портфолио/photos/2.jpg" alt="Фото в топовых очках">
+                    <img src="/Сайт-портфолио/photos/1.jpg" alt="Соски-нереалки">
+                    <img src="/Сайт-портфолио/photos/3.jpg" alt="Пися на природе">
+
+                </section>
 
 
             </section>
