@@ -1,0 +1,217 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 481px) and (max-width: 991px) {
+
+    nav ul li{
+        font-size: 1em;
+    }
+
+    .mainscreen h1{
+        font-size: 3em;
+        margin-top: 150px;
+    }
+    .mainscreen h2{
+        font-size: 2em;
+    }
+
+    .section-grid
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.portfolio{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+
+.case{
+    width: 35%;
+    max-width: 50%;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    background-color: white;
+    color: grey;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form h3{
+    font-size: 1em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form-raw{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 0;
+    }
+
+    .form button{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+body
+{
+width: 100%;
+
+} 
+
+nav{
+    display: none;
+}
+.container{
+    width: 90%;
+padding: 0;
+}
+
+.mainscreen{
+    text-align: center;
+}
+.mainscreen h1{
+    font-size: 2.2em;
+    margin-top: 250px;
+}
+.mainscreen h2{
+    font-size: 1.5em;
+}
+.mainscreen button{
+    margin-top: 50px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.first-title{
+    margin-top: 350px;
+
+}
+
+.title h2{
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.section-grid
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.block{
+    padding:20px 35px 20px 35px;
+    border-radius: 30px;
+    font-size: 1em;
+    line-height: 1.7em;
+    background-color: seashell;
+}
+.block p{
+    text-align:left;
+}
+
+.block h2{
+font-size: 1.3em;
+padding: 0;
+margin: 0 0 15px 0;
+}
+.contacts a{
+display: block;
+border-radius: 30px;
+color: white;
+text-decoration: none;
+background-color: black;
+padding: 15px 25px 15px 25px;
+width: 60%;
+margin-top: 10px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   
+}
+
+.flex-block{
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.skill-block{
+
+    margin-right: 10px;
+}
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .gallery img{
+        max-width: 350px;
+    }
+    .form{
+        width: 90%;
+        height: auto;
+        text-align: left;
+        background-color: white;
+        color: grey;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form h3{
+        font-size: 1em;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .form-raw{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 0;
+        }
+
+}
